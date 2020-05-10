@@ -3,7 +3,9 @@
 const fs = require("fs");
 
 let rawdata = fs.readFileSync("person.json");
-let person = JSON.parse(rawdata);
-console.log(rawdata);
-console.log(person);
-console.log(person.hobby);
+let personObj = JSON.parse(rawdata);
+let rawdataString = rawdata.toString();
+console.log(rawdata); // data buffer
+console.log(rawdataString); // data buffer to string
+console.log(personObj); // javascript object
+console.log(personObj.hobby); // javascript object element
