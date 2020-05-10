@@ -8,7 +8,7 @@
 
 ## 读 JSON 文件
 
-首先新建一个项目目录，`json-file-example`
+首先新建一个项目目录，`node-json-file-operation-example`
 
 然后在项目目录下创建一个 JSON 文件`person.json`，内容如下
 
